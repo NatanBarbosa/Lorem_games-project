@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eeeeee;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#sombra{
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+}
+
+/*****************************************************************************
+Formatando Cabeçalho*/
+
+header{
+    position: relative;
+    width: 100%;
+    height: 110px;
+    background: url(../imagens/fundo-topo2.jpg) repeat-x top center;
+}
+
+header .navbar .navbar-brand{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+    /*****************************************************************************
+    Formatando Menu horizontal*/
+nav ul{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ed3c28,#ed5628);
+    z-index: 1;
+}
+
+nav ul li{
+    background: url(../imagens/border-left.png) repeat-y left center;
+}
+
+nav ul li.nav-item a.nav-link{
+    text-decoration: none;
+    color: white;
+    border-left: #000000;
+}
+
+nav ul li a.primeiro{
+    background-image: none;
+}
+
+nav ul li a:hover, nav ul li:hover{
+    background-image: linear-gradient(to top, #cf3d2c,#c7502b);
+}
+
+nav ul li.atual{
+    background-image: linear-gradient(to top, #cf3d2c,#c7502b);
+}
+
+.navbar-toggler i{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.menu{
+    z-index: 999 !important;
+}
+
+nav .nav-item, nav .nav-item{
+    padding: 3px 10px
+}
+/*****************************************************************************
+Separando conteudos*/
+
+
+article{
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+    padding: 5px;
+    z-index: 0;
+}
+
+aside{
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+#uma-coluna article{
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+footer {
+    border-radius: 3px;
+    background: #c7502b;
+    padding: 13px;
+    clear: both;
+    color: white;
+    text-align: center;
+}
+
+/*****************************************************************************
+Formatando textos*/
+
+article h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #0971ba;
+    padding: 8px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+
+}
+
+article h4{
+    color: blue;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+aside>h2{
+    margin-top: 10px;
+    background-color: rgb(195, 56, 25);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+/*****************************************************************************
+Formatando noticias*/
+
+.card h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #cf3d2c;
+}
+
+
+article.card{
+    width: 47%;
+    margin: 5px;
+}
+
+/*****************************************************
+Media queries para os cards em mobile*/
+/*Small devices*/
+@media (max-width: 767.98px) {
+    article.card{
+        width: 100%;
+    }
+}
+
+/*Medium devices*/
+@media (max-width: 991.98px) {
+    article.card{
+        width: 75%;
+    }
+}
+ 
+
+/********************************************************
+Estilizando tabela*/
+table{
+    margin-top: 15px;
+}
+
+table, td, th{
+    border-bottom: 2px outset rgb(252, 156, 13);
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 5px;
+    text-align: center;
+}
+
+th{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contorno{
+    background-color: #ffeedf;
+}
+
+tr:hover{
+    background-color: #ccffff;
+    cursor: pointer;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/********************************************************
+Formatando formulário*/
+
+div.input-group{
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 1em;
+    color: black;
+}
+
+input[type=radio]{
+    cursor: pointer;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
