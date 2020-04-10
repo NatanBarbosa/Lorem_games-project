@@ -7,3 +7,5 @@ de dados no futuro. O conteúdo do site é, teoricamente, voltado para games, po
 todos em "Lorem" pois meu foco não é o conteúdo e sim a parte visual e interativa do site.
 Fotos de capa tirada do [depositphotos](https://br.depositphotos.com/home.html)
 Nenhuma violação de direitos autorais pretendida
+
+página hospedada: https://natanbarbosa.github.io/Lorem_games-project/index.html
