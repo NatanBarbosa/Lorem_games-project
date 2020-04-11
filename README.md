@@ -7,8 +7,6 @@ Esse é um projeto que eu (@NatanBarbosa) fiz ultilizando **html**, **css**, **b
 
 ### Sobre o projeto 
 Este site é voltado mais para o front-end e não possui um back-end, porém pretendo incrementar **php** e **mySQL** no futuro.
-
-***
  
 O conteúdo do site é, teoricamente, voltado para games, porem os textos estão quase
 todos em "*Lorem*" pois meu foco não é o conteúdo e sim a parte visual e interativa do site.
