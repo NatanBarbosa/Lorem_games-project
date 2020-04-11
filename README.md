@@ -14,8 +14,10 @@ todos em "*Lorem*" pois meu foco não é o conteúdo e sim a parte visual e inte
 ***
 
 ### Projeto Hospedado
-[x] Hospedei o Projeto usando o [GitHub-Pages](https://pages.github.com/)  
-[x] Link do site [aqui](https://natanbarbosa.github.io/Lorem_games-project/index.html)
+1. Hospedei o Projeto usando o [GitHub-Pages](https://pages.github.com/)  
+2. Link do site [aqui](https://natanbarbosa.github.io/Lorem_games-project/index.html)
+
+***
 
 ### Considerações
 - Fotos de capa tirada do [depositphotos](https://br.depositphotos.com/home.html)
