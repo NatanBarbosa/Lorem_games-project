@@ -1,21 +1,14 @@
 # Lorem games project
 
 ### Linguagens
-Esse é um projeto que eu (@NatanBarbosa) fiz ultilizando **html**, **css**, **bootstrap** e um pouco de **javascript**(ainda estou aprendendo esse).
+Esse é um projeto que eu fiz ultilizando **html**, **css**, **bootstrap** e um pouco de **javascript**.
 
 ***
 
 ### Sobre o projeto 
 Este site é voltado mais para o front-end e não possui um back-end, porém pretendo incrementar **php** e **mySQL** no futuro.
  
-O conteúdo do site é, teoricamente, voltado para games, porem os textos estão quase
-todos em "*Lorem*" pois meu foco não é o conteúdo e sim a parte visual e interativa do site.
-
-***
-
-### Projeto Hospedado
-1. Hospedei o Projeto usando o [GitHub-Pages](https://pages.github.com/)  
-2. Link do site [aqui](https://natanbarbosa.github.io/Lorem_games-project/index.html)
+O conteúdo do site é, teoricamente, voltado para games, porem os textos estão quase todos em "*Lorem*" pois meu foco não é o conteúdo e sim a parte visual e interativa do site.
 
 ***
 
